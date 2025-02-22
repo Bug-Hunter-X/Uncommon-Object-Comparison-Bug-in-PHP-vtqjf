@@ -1,0 +1,3 @@
+# Uncommon Object Comparison Bug in PHP
+This repository demonstrates an uncommon bug in PHP related to object comparison using the `==` operator. The bug arises when comparing objects with the same properties but potentially different internal structures. The standard `==` operator sometimes fails to correctly identify the objects as equal, unexpectedly returning `false` even when the objects' content seems identical.
+The `bug.php` file contains the buggy code, while `bugSolution.php` provides a possible solution.
